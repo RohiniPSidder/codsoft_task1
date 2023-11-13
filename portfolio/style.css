@@ -1,0 +1,245 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+*{
+    transition: .2s linear;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(38, 38, 63);
+}
+header{
+    top:0;right:0;left:0;
+    display:flex;
+    align-items: center;
+    position: fixed;
+    background-color:rgb(58, 58, 78,0.9);
+    color: white;
+}
+.header .name{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.header .name img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.header .name h1{
+    margin-left: 20px;
+}
+.header .navbar ul{
+    list-style: none;
+    display: flex;
+    padding-left: 300px;
+}
+.header .navbar li{
+    padding-right: 30px;
+    font-size: large;
+    padding: all;
+}
+.header .navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.header .navbar a:hover{
+    color: white;
+    border-bottom: 2px solid aqua;
+    padding-bottom: .4rem; 
+}
+.home{
+    text-align: center;
+    color: white;
+}
+.home .homecontent{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.home .homecontent p{
+    font-size: 1.2rem;
+    font-weight:bold ;
+    text-align: center;
+    margin-left: 50px ;
+    margin-right: 50px;
+    line-height: 2;
+}
+.home img{
+    margin-top:30px;
+    margin-left: 80px;
+    width:400px;height:500px;
+}
+.home .homecontent button{
+    padding:20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 2rem;
+    font-size: 25px;
+}
+.home .homecontent button a{
+    color: white;
+}
+.home .homecontent button:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); 
+}
+.skills{
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 10px;
+}
+.skills h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.skills .photo{
+    display: inline-block; 
+    border-radius: 2rem;
+    background-color: rgb(58, 58, 78) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:20px;
+    margin-right: 10px;;
+}
+.skills .photo img{
+    width: 150px;
+    height: 150px;
+}
+.project{
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 10px;
+}
+.project h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.project .p1{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:rgb(58, 58, 78);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.project .p1 img{
+    padding-right: 20px;
+    width:500px;
+    height:300px;
+}
+.project .p1 .pcontent{
+    text-align: center;
+    padding-right: 150px;
+}
+.project .p1 .pcontent a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+.project .p1 .pcontent a:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+.project .proj{
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 2rem;
+    text-align: center;
+}
+.project .p3{
+    display: flex;
+    background-color:rgb(58, 58, 78);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.project .p3 .pcont{
+    text-align: center;
+    padding-left: 400px;
+    font-size: large;
+}
+.project .p3 .pcont a{
+    color: white;
+}
+.project .p3 .pcont a:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+.cert{
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 10px;
+}
+.cert h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+.cert .c1{
+    background-color:rgb(58, 58, 78);
+    border-radius: 2rem;
+    width:450px;
+    height:150px;
+    padding:20px;
+    align-items: center;
+    margin: 3rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2rem;
+}
+.cert .c1 img{
+    width:50px;
+    height: 50px;
+}
+.cert .c1 a{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.cert .c1 a:hover{
+    color: aqua;
+    font-size: larger;
+}
+.contact{
+    padding:5rem 0;
+    background-size: cover;
+    color: white;
+}
+.contact h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+.contact .con i{
+    padding-right: 10px;
+}
+.contact .con{
+    text-align: center;
+    padding: 20px;
+}
+.contact .con a{
+    margin-right: 2rem;
+    color: white;
+}
+.contact .con a:hover{
+    color:aqua;
+    border-bottom: 2px solid aqua;
+    padding-bottom: .4rem;
+}
+.contact .footer{
+    text-align: center;
+    padding:20px;
+}
